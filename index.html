@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago Barbosa | PortfolioHUB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Thiago<span class="tech-dot">.dev</span></a>
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projetos</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </nav>
+            <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema visual">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <p class="hero-subtitle">Olá, meu nome é</p>
+                <h1 class="hero-title">Thiago de Oliveira Gonçalves Barbosa</h1>
+                <h2 class="hero-role">Estudante de Ciência da Computação</h2>
+                <p class="hero-description">
+                    Tenho estudado as linguagens C e Java, lógica de programação e banco de dados. 
+                    Meu objetivo é evoluir em projetos reais, buscando desenvolver minha capacidade na área, 
+                    organizar meu GitHub para melhor visualização do meu desempenho.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary">Entre em contato</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Minhas Competências</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-java skill-icon java-color"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python skill-icon python-color"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code skill-icon c-color"></i>
+                        <h3>Linguagem C</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-git-alt skill-icon git-color"></i>
+                        <h3>Git</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-github skill-icon github-color"></i>
+                        <h3>GitHub</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Projetos em Destaque</h2>
+                <div class="projects-grid">
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder project-folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/thiagoogb" target="_blank" rel="noopener noreferrer" aria-label="Link para o repositório do Space Invaders">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Space Invaders em Python</h3>
+                        <p class="project-text">
+                            Projeto que simula o clássico jogo Space Invaders utilizando práticas de matrizes, a biblioteca Pygame, entre outras técnicas de desenvolvimento de jogos e lógica.
+                        </p>
+                        <div class="project-tags">
+                            <span class="badge">Python</span>
+                            <span class="badge">Pygame</span>
+                            <span class="badge">Lógica de Matrizes</span>
+                        </div>
+                        <a href="https://github.com/thiagoogb" target="_blank" rel="noopener noreferrer" class="project-repo-link">
+                            Visualizar no GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container contact-container">
+                <h2 class="section-title">Vamos nos conectar?</h2>
+                <p class="contact-subtitle">Estou sempre em busca de novos desafios e oportunidades para evoluir em projetos reais.</p>
+                
+                <a href="mailto:thiagoogb@sempreceub.com" class="email-display">
+                    thiagoogb@sempreceub.com
+                </a>
+
+                <div class="social-channels">
+                    <a href="https://www.linkedin.com/in/thiago-barbosa-10192a40b/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Perfil do LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/thiagoogb" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Perfil do GitHub">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Thiago de Oliveira. Desenvolvido com PortfolioHUB & Gemini</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
